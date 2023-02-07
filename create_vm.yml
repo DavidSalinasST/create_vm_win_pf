@@ -51,7 +51,7 @@
             domain: "david.local"
             dns_servers:
               - "{{ vm_dns_servers }}"
-            password: "{{ vm_disk_gb }}"
+            password: "{{ vm_password }}"
             runonce:
             - powershell.exe -ExecutionPolicy Unrestricted -File C:\Temp\prueba.ps1 -ForceNewSSLCert -EnableCredSSP
         delegate_to: localhost
