@@ -45,6 +45,7 @@
               ip: "{{ vm_ip }}"
               netmask: "{{ vm_netmask }}"
               gateway: "{{ vm_gateway }}"
+              start_connected: true
           wait_for_ip_address: True
           customization:
             autologon: true
