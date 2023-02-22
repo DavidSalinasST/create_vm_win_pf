@@ -48,10 +48,10 @@
           wait_for_ip_address: True
           customization:
             autologon: true
-            domain: "david.local"
+            domain: "pacifico.local"
             dns_servers:
               - "{{ vm_dns_servers }}"
             password: "{{ vm_password }}"
             runonce:
-            - powershell.exe -ExecutionPolicy Unrestricted -File C:\Temp\prueba.ps1 -ForceNewSSLCert -EnableCredSSP
+            - powershell.exe -ExecutionPolicy Unrestricted -File C:\Temp\ConfigureRemotingForAnsible.ps1 -ForceNewSSLCert -EnableCredSSP
         delegate_to: localhost
