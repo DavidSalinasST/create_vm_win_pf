@@ -30,7 +30,7 @@
           folder: "{{ vcenter_destination_folder }}"
           state: "{{ vm_state }}"
           guest_id: "{{ vm_guestid }}"
-          cluster: ""
+          cluster: "{{ vcenter_cluster }}"
           disk:
             - size_gb: "{{ vm_disk_gb }}"
               type: "{{ vm_disk_type }}"
@@ -48,7 +48,7 @@
           wait_for_ip_address: True
           customization:
             autologon: true
-            domain: "pacifico.local"
+            domain: "vsphere.local"
             dns_servers:
               - "{{ vm_dns_servers }}"
             password: "{{ vm_password }}"
