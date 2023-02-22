@@ -51,6 +51,7 @@
             domain: "vsphere.local"
             dns_servers:
               - "{{ vm_dns_servers }}"
+              - "{{ vm_dns_servers2 }}"
             password: "{{ vm_password }}"
             runonce:
             - powershell.exe -ExecutionPolicy Unrestricted -File C:\Temp\ConfigureRemotingForAnsible.ps1 -ForceNewSSLCert -EnableCredSSP
