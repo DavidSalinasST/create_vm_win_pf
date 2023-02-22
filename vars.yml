@@ -1,15 +1,16 @@
 ---
-vcenter_hostname: "10.5.40.15"
-vcenter_datacenter: "DC-ST-Lab"
+vcenter_hostname: "172.30.6.141"
+vcenter_datacenter: "Site_Chorrillos_I"
+vcenter_cluster: "CCCH_LNX_PRD"
 vcenter_validate_certs: false
-vcenter_username: "dsalinas@vsphere.local"
-vcenter_password: "Prueba.2023!"
-vm_name: "myvm4win"
+vcenter_username: "EPPS\\SERANSVCS"
+vcenter_password: "EmT7QDuVy4*B"
+vm_name: "myvm5win"
 vm_template: "test-win-pcf"
-vm_guestid: "windows2019srv_64Guest"
+vm_guestid: "Template_W2K19"
 vm_disk_gb: 100
 vm_disk_type: "thin"
-vm_disk_datastore: "ST-Mac-Iver-Datastore-02"
+vm_disk_datastore: "CCCH_DES_LNX_XIO_001"
 vm_hw_ram_mb: 8192
 vm_hw_cpu_n: 2
 vm_hw_scsi: "paravirtual"
