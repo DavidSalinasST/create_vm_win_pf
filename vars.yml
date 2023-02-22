@@ -6,8 +6,8 @@ vcenter_validate_certs: false
 vcenter_username: "EPPS\\SERANSVCS"
 vcenter_password: "EmT7QDuVy4*B"
 vm_name: "myvm4win"
-vm_template: "test-win-pcf"
-vm_guestid: "Template_W2K19"
+vm_template: "Template_W2K19"
+vm_guestid: "windows2019srv_64Guest"
 vm_disk_gb: 100
 vm_disk_type: "thin"
 vm_disk_datastore: "CCCH_DES_LNX_XIO_001"
