@@ -5,7 +5,7 @@ vcenter_cluster: "CCCH_LNX_PRD"
 vcenter_validate_certs: false
 vcenter_username: "EPPS\\SERANSVCS"
 vcenter_password: "EmT7QDuVy4*B"
-vm_name: "myvm5win"
+vm_name: "myvm4win"
 vm_template: "test-win-pcf"
 vm_guestid: "Template_W2K19"
 vm_disk_gb: 100
